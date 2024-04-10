@@ -2,6 +2,7 @@ package com.example.masteradapter;
 
 import android.os.Bundle;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -33,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         imageSphere = findViewById(R.id.imageViewSphere);
 
 
+        Toast.makeText(this, "Hello", Toast.LENGTH_SHORT).show();
         //imageCube.setOnClickListener();
     }
 }
